@@ -1,0 +1,38 @@
+
+@import "../../Assets/style/variables.scss";
+.breadcrumbs b::after{
+    content: ">";
+}
+.bus{
+    border: 1px solid #ddd;;
+    margin: 20px 0;
+    img{
+        width: 60px;
+    }
+}
+
+.filters{
+    font-size: 13px;
+    color: #3e3e52;
+    border-top: 2px solid #ddd;
+    padding: 10px 0;
+
+}
+.view-seats {
+    
+    text-align: right;
+
+    button{
+        background-color: $red;
+        color:white;
+        border:none;
+        text-transform: uppercase;
+    }
+}
+
+.displaySeats{
+    display: none;
+    img{
+        
+        width:20px;}
+}

@@ -1,0 +1,299 @@
+@import "../../../Assets/style/variables.scss";
+body {
+  color: #4a4a4a;
+}
+.banner {
+  background-image: url("https://st.redbus.in/Images/INDOFFER/FESTIVE200/Hero01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  //z-index: -1;
+}
+
+.bannerInput {
+  position: relative;
+  bottom: -200px;
+  //z-index: 3;
+  .form-floating > label {
+    padding: 1rem 2rem;
+    color: rgb(77, 75, 75);
+    font-size: 12px;
+  }
+  .form-control {
+    border: none;
+    box-shadow: none;
+    border-radius: unset;
+    text-transform: capitalize;
+  }
+
+  .form-floating .form-control {
+    padding: 0;
+    height: 100%;
+  }
+  .fromto {
+    position: relative;
+    padding: 10px 0 0 35px;
+    border: 0.5px solid lightgray;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.18);
+    span {
+      position: absolute;
+      top: 50%;
+      left: 3%;
+      transform: translateY(-50%);
+      font-size: 18px;
+      color: gray;
+    }
+  }
+  .fromto:focus-within {
+    border: 0.5px solid rgb(72, 144, 226);
+  }
+  .form-floating > .form-control:focus ~ label,
+  .form-floating > .form-control:not(:placeholder-shown) ~ label {
+    transform: scale(0.85) translateY(-0.8rem) translateX(0.5rem);
+  }
+  // .fromto:focus-within label {
+  // .form-floating>.form-control:focus .form-floating label{
+  //   opacity: 0.65;
+  //   transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+  // }
+  // .form-floating > .form-control:not(:placeholder-shown) .form-floating label{
+  //   opacity: 0.65;
+  //   transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+  // }
+  input:focus-visible {
+    outline: none;
+  }
+  .search button {
+    padding: 10px 20px 12px 20px;
+    font-weight: bold;
+    background-color: $red;
+    color: white;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.18);
+  }
+  .search button:hover {
+    background-color: $hoverred;
+  }
+}
+.discount-section {
+  position: relative;
+  padding-bottom: 40px;
+}
+.offer-height {
+  height: 100%;
+}
+.discount-section::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  //display: block;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: #f7f7f7;
+}
+.discount {
+  width: 70%;
+  margin: -60px auto 0;
+
+  p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+  }
+  .discount-offer {
+    text-align: center;
+    box-shadow: 0 1px 10px #c3c3c3;
+
+    background-color: white;
+    padding: 10px 40px;
+    margin: 0 13px 20px;
+    height: 100%;
+  }
+  .first-offer {
+    h4 {
+      font-size: 19px;
+    }
+    img {
+      display: inline-block;
+      margin: 0 auto;
+    }
+  }
+  .offer {
+    transition: all 0.5s ease;
+    border-radius: 3px;
+    height: 100%;
+
+    img {
+      width: 80%;
+      display: block;
+    }
+    h6 {
+      font-size: 12px;
+    }
+  }
+}
+.offer:hover {
+  transform: scale(1.1);
+}
+
+.useAPP-section .bg-img {
+  //background-image: url("https://s2.rdbuz.com/web/images/home/city_scape_app_download.png");
+  //height: 300px;
+  margin-top: 120px;
+  display: block;
+  z-index: -1;
+  img {
+    width: 100%;
+    opacity: 0.3;
+  }
+}
+.useAPP {
+  padding: 40px 0;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 14px;
+  .content{
+    input{
+      margin:0 5px;
+    }
+      button{
+        display: block;
+        margin-left: 60px;
+        padding: 4px 14px;
+        background-color: $red;
+        color:white;
+        margin-top: 10px;
+        border: none;
+        font-size: 14px;
+      }
+  }
+  .image {
+    position: relative;
+    right: -60px;
+    img {
+      display: block;
+      position: absolute;
+      width: 70%;
+      right: 0;
+      top: 35px;
+    }
+  }
+}
+.deliver-section {
+  text-align: center;
+  margin-top: 185px;
+  padding: 20px 0;
+  background-color: #ededed;
+  border: solid 1px lightgray;
+  .promise-img {
+    img {
+      width: 90px;
+    }
+    h3 {
+      margin-top: 20px;
+    }
+  }
+  .promise-border {
+    border: solid 1px lightgray;
+    background-color: white;
+  }
+  .promise {
+    padding: 30px 30px 40px;
+    height: 100%;
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 14px;
+    word-spacing: 4px;
+    img {
+      width: auto;
+      height: 90px;
+    }
+    .uppercase {
+      padding: 30px;
+    }
+  }
+}
+.awards-section {
+  img {
+    height: 110px;
+  }
+  p {
+    width: 160px;
+    word-spacing: 5px;
+    margin: 54px auto;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+}
+.countries-section {
+  background-color: #ededed;
+  border: solid 1px lightgray;
+  .countries {
+    width: 80%;
+    margin: 0 auto;
+    img {
+      height: 75px;
+      margin-top: 38px;
+    }
+    p {
+      width: 160px;
+      word-spacing: 5px;
+      margin: 15px auto;
+      font-size: 15px;
+      letter-spacing: 2px;
+    }
+  }
+}
+.people-section {
+  .people {
+    p:first-child {
+      word-spacing: 5px;
+      letter-spacing: 2px;
+      font-size: 15px;
+      color: #737373;
+      margin-bottom: 0;
+    }
+    h3 {
+      color: $red;
+      font-size: 50px;
+      font-weight: 400;
+    }
+    p:last-child {
+      width: 210px;
+      margin: 0 auto;
+      font-size: 14px;
+      word-spacing: 1px;
+      letter-spacing: 1px;
+    }
+  }
+}
+.topcollection-section {
+  background-color: #e5e5e5;
+  color: #444343;
+  padding: 50px 0;
+  h6{
+    font-weight: 700;
+  }
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: #444343;
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: block;
+      }
+    }
+  }
+  a:hover {
+    color: red;
+  }
+}

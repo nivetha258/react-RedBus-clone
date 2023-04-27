@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "name": "SK Balu Bus",
+    "time": 22.0,
+    "startPoint": "namakkal",
+    "endPoint": "chennai",
+    "seatType": "slepper",
+    "ac": "yes",
+    "travelDuration": 4.3,
+    "seatsAvailable": 30,
+    "rating": 3.4,
+    "deck": {
+      "lowerDeck": {
+        "double": [
+          { "id": 1, "available": true, "gender": null, "price": 750 },
+          { "id": 2, "available": false, "gender": "male", "price": 750 },
+          { "id": 3, "available": false, "gender": "female", "price": 750 },
+          { "id": 4, "available": true, "gender": null, "price": 750 },
+          { "id": 5, "available": true, "gender": null, "price": 750 },
+          { "id": 6, "available": false, "gender": "male", "price": 750 },
+          { "id": 7, "available": true, "gender": null, "price": 750 },
+          { "id": 8, "available": true, "gender": null, "price": 750 },
+          { "id": 9, "available": true, "gender": null, "price": 750 },
+          { "id": 10, "available": true, "gender": null, "price": 750 },
+          { "id": 11, "available": true, "gender": null, "price": 850 },
+          { "id": 12, "available": true, "gender": null, "price": 850 }
+        ],
+        "single": [
+          
+          { "id": 13, "available": true, "gender": null, "price": 850 },
+          { "id": 14, "available": true, "gender": null, "price": 850 },
+          { "id": 15, "available": true, "gender": null, "price": 850 },
+          { "id": 16, "available": true, "gender": null, "price": 850 },
+          { "id": 17, "available": true, "gender": null, "price": 850 },
+          { "id": 18, "available": true, "gender": null, "price": 850 }         
+        ]   
+      },
+      "upperDeck": {
+        "double": [
+        
+          { "id": 19, "available": false, "gender": "female", "price": 700 },
+          { "id": 20, "available": true, "gender": null, "price": 700 },
+          { "id": 21, "available": false, "gender": "male", "price": 700 },
+          { "id": 22, "available": true, "gender": null, "price": 700 },
+          { "id": 23, "available": true, "gender": null, "price": 700 },
+          { "id": 24, "available": true, "gender": null, "price": 700 },
+          { "id": 25, "available": true, "gender": null, "price": 700 },
+          { "id": 26, "available": true, "gender": null, "price": 700 },
+          { "id": 27, "available": true, "gender": null, "price": 700 },
+          { "id": 28, "available": true, "gender": null, "price": 700 },
+          { "id": 29, "available": true, "gender": null, "price": 700 },
+          { "id": 30, "available": true, "gender": null, "price": 700 }
+        ],
+        "single": [
+          { "id": 31, "available": true, "gender": null, "price": 830 },
+          { "id": 32, "available": true, "gender": null, "price": 830 },
+          { "id": 33, "available": true, "gender": null, "price": 830 },
+          { "id": 34, "available": true, "gender": null, "price": 830 },
+          { "id": 35, "available": true, "gender": null, "price": 830 },
+          { "id": 36, "available": true, "gender": null, "price": 700 }
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "SK Balu Bus",
+    "time": 23.0,
+    "startPoint": "namakkal",
+    "endPoint": "chennai",
+    "seatType": "non-slepper",
+    "ac": "yes",
+    "travelDuration": 4.5,
+    "price": 650,
+    "seatsAvailable": 15,
+    "rating": 4,
+    "deck": {
+      "lowerDeck": {
+        "double": [
+          { "id": 1, "available": true, "gender": null, "price": 750 },
+          { "id": 2, "available": true, "gender": null, "price": 750 },
+          { "id": 3, "available": true, "gender": null, "price": 750 },
+          { "id": 4, "available": true, "gender": null, "price": 750 },
+          { "id": 5, "available": true, "gender": null, "price": 750 },
+          { "id": 6, "available": true, "gender": null, "price": 750 },
+          { "id": 7, "available": true, "gender": null, "price": 750 },
+          { "id": 8, "available": true, "gender": null, "price": 750 },
+          { "id": 9, "available": true, "gender": null, "price": 750 },
+          { "id": 10, "available": true, "gender": null, "price": 750 }
+        ],
+        "single": [
+          { "id": 11, "available": true, "gender": null, "price": 850 },
+          { "id": 12, "available": true, "gender": null, "price": 850 },
+          { "id": 13, "available": true, "gender": null, "price": 850 },
+          { "id": 14, "available": true, "gender": null, "price": 850 },
+          { "id": 15, "available": true, "gender": null, "price": 850 }
+        ],
+        "solo": { "id": 16, "available": true, "gender": null, "price": 720 }
+      },
+      "upperDeck": {
+        "double": [
+          { "id": 17, "available": true, "gender": null, "price": 700 },
+          { "id": 18, "available": true, "gender": null, "price": 700 },
+          { "id": 19, "available": true, "gender": null, "price": 700 },
+          { "id": 20, "available": true, "gender": null, "price": 700 },
+          { "id": 21, "available": true, "gender": null, "price": 700 },
+          { "id": 22, "available": true, "gender": null, "price": 700 },
+          { "id": 23, "available": true, "gender": null, "price": 700 },
+          { "id": 24, "available": true, "gender": null, "price": 700 },
+          { "id": 25, "available": true, "gender": null, "price": 700 },
+          { "id": 26, "available": true, "gender": null, "price": 700 }
+        ],
+        "single": [
+          { "id": 27, "available": true, "gender": null, "price": 830 },
+          { "id": 28, "available": true, "gender": null, "price": 830 },
+          { "id": 29, "available": true, "gender": null, "price": 830 },
+          { "id": 30, "available": true, "gender": null, "price": 830 },
+          { "id": 31, "available": true, "gender": null, "price": 830 }
+        ],
+        "solo": { "id": 32, "available": true, "gender": null, "price": 680 }
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "sss",
+    "time": 21.15,
+    "startPoint": "erode",
+    "endPoint": "chennai",
+    "seatType": "slepper",
+    "ac": "yes",
+    "travelDuration": 6.0,
+    "price": 950,
+    "seatsAvailable": 33,
+    "rating": 4.2
+  },
+  {
+    "id": 4,
+    "name": "srt",
+    "time": 21.3,
+    "startPoint": "salem",
+    "endPoint": "chennai",
+    "seatType": "non-slepper",
+    "ac": "no",
+    "travelDuration": 4.3,
+    "price": 650,
+    "seatsAvailable": 10,
+    "rating": 3.8
+  }
+]
